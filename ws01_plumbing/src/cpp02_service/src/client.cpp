@@ -60,7 +60,7 @@ int main(int argc, char  *argv[])
     }
     auto future = client->send_request(atoi(argv[1]),atoi(argv[2]));
     if(rclcpp::spin_until_future_complete(client,future)==rclcpp::FutureReturnCode::SUCCESS){
-            RCLCPP_INFO(client->get_logger(),"相应成功 sum =%d",future.get()->sum);
+            RCLCPP_INFO(client->get_logger(),"响应成功 sum =%d",future.get()->sum);
 
     }
     else{
