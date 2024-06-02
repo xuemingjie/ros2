@@ -1,0 +1,14 @@
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/uninstall.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/xiaomi_uninstall.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/xiaomi_able.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/xiaomi_use.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/xiaomi_sub.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/xiaomi_msg_pub.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/xiaomi_msg_sub.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/test.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/edit_cache.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/rebuild_cache.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/list_install_components.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/install.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/install/local.dir
+/home/xmj/xiaomi_ws/build/xiaomi/CMakeFiles/install/strip.dir

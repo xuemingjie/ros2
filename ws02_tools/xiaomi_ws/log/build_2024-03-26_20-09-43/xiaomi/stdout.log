@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target xiaomi_use[0m
+[ 20%] Built target xiaomi_sub
+[ 46%] Built target xiaomi_msg_sub
+[ 40%] [32mBuilding CXX object CMakeFiles/xiaomi_use.dir/src/xiaomi_use.cpp.o[0m
+[ 66%] Built target xiaomi_able
+[ 86%] Built target xiaomi_msg_pub
+[ 93%] [32m[1mLinking CXX executable xiaomi_use[0m
+[100%] Built target xiaomi_use
+-- Install configuration: ""
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_able
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/package_run_dependencies/xiaomi
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/parent_prefix_path/xiaomi
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/path.sh
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/path.dsv
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.bash
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.sh
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.zsh
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.dsv
+-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.dsv
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/packages/xiaomi
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/cmake/xiaomiConfig.cmake
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/cmake/xiaomiConfig-version.cmake
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.xml
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/launch
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/launch/xiaomi_sue_launch.py
+-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_use
+-- Set runtime path of "/home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_use" to ""
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_sub
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_msg_pub
+-- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_msg_sub

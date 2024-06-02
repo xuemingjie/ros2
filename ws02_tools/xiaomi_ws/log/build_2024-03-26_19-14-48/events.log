@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.000211] (-) JobUnselected: {'identifier': 'xiaomi_interfaces'}
+[0.000238] (xiaomi) JobQueued: {'identifier': 'xiaomi', 'dependencies': OrderedDict([('xiaomi_interfaces', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces')])}
+[0.000259] (xiaomi) JobStarted: {'identifier': 'xiaomi'}
+[0.008460] (xiaomi) JobProgress: {'identifier': 'xiaomi', 'progress': 'cmake'}
+[0.008653] (xiaomi) Command: {'cmd': ['/usr/bin/cmake', '/home/xmj/xiaomi_ws/src/xiaomi', '-DCMAKE_INSTALL_PREFIX=/home/xmj/xiaomi_ws/install/xiaomi'], 'cwd': '/home/xmj/xiaomi_ws/build/xiaomi', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xmj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/xmj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xmj'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nodejs/node-v18.12.1-linux-x64/bin/:/opt/nodejs/node-v18.12.1-linux-x64/bin/'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1785,unix/WP:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3a1b2e_f5a1_4e7f_8ca2_8d0a47f8d425'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xmj/xiaomi_ws/build/xiaomi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.058505] (xiaomi) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098810] (-) TimerEvent: {}
+[0.103564] (xiaomi) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.110872] (xiaomi) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.167728] (xiaomi) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.175151] (xiaomi) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.175358] (xiaomi) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.175980] (xiaomi) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.178819] (xiaomi) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.198935] (-) TimerEvent: {}
+[0.256622] (xiaomi) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.264410] (xiaomi) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.264752] (xiaomi) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.265331] (xiaomi) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.268048] (xiaomi) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299057] (-) TimerEvent: {}
+[0.399335] (-) TimerEvent: {}
+[0.419881] (xiaomi) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499463] (-) TimerEvent: {}
+[0.518036] (xiaomi) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.563448] (xiaomi) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.567761] (xiaomi) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.575158] (xiaomi) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.586225] (xiaomi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.599553] (-) TimerEvent: {}
+[0.601991] (xiaomi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.681155] (xiaomi) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.684208] (xiaomi) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699686] (-) TimerEvent: {}
+[0.779462] (xiaomi) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.799827] (-) TimerEvent: {}
+[0.803281] (xiaomi) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.847176] (xiaomi) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.857223] (xiaomi) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.899951] (-) TimerEvent: {}
+[0.920480] (xiaomi) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.920808] (xiaomi) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.984787] (xiaomi) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.986252] (xiaomi) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000081] (-) TimerEvent: {}
+[1.100383] (-) TimerEvent: {}
+[1.159109] (xiaomi) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)\n'}
+[1.161309] (xiaomi) StdoutLine: {'line': b'-- Found xiaomi_interfaces: 0.0.0 (/home/xmj/xiaomi_ws/install/xiaomi_interfaces/share/xiaomi_interfaces/cmake)\n'}
+[1.180645] (xiaomi) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.200473] (-) TimerEvent: {}
+[1.270014] (xiaomi) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.270253] (xiaomi) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/xmj/xiaomi_ws/src/xiaomi/include>\n'}
+[1.270316] (xiaomi) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.270617] (xiaomi) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.271209] (xiaomi) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.271921] (xiaomi) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.273155] (xiaomi) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.273381] (xiaomi) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.274175] (xiaomi) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.280207] (xiaomi) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.300606] (-) TimerEvent: {}
+[1.310575] (xiaomi) StdoutLine: {'line': b'-- Generating done\n'}
+[1.313100] (xiaomi) StdoutLine: {'line': b'-- Build files have been written to: /home/xmj/xiaomi_ws/build/xiaomi\n'}
+[1.322474] (xiaomi) CommandEnded: {'returncode': 0}
+[1.323355] (xiaomi) JobProgress: {'identifier': 'xiaomi', 'progress': 'build'}
+[1.324313] (xiaomi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xmj/xiaomi_ws/build/xiaomi', '--', '-j8', '-l8'], 'cwd': '/home/xmj/xiaomi_ws/build/xiaomi', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xmj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/xmj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xmj'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nodejs/node-v18.12.1-linux-x64/bin/:/opt/nodejs/node-v18.12.1-linux-x64/bin/'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1785,unix/WP:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3a1b2e_f5a1_4e7f_8ca2_8d0a47f8d425'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xmj/xiaomi_ws/build/xiaomi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble')]), 'shell': False}
+[1.375182] (xiaomi) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_able.dir/src/xiaomi_initial_set.cpp.o\x1b[0m\n'}
+[1.375603] (xiaomi) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_able.dir/src/xiaomi_able.cpp.o\x1b[0m\n'}
+[1.376599] (xiaomi) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_msg_sub.dir/src/xiaomi_initial_set.cpp.o\x1b[0m\n'}
+[1.376892] (xiaomi) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_msg_sub.dir/src/xiaomi_msg_sub.cpp.o\x1b[0m\n'}
+[1.377175] (xiaomi) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_msg_pub.dir/src/xiaomi_initial_set.cpp.o\x1b[0m\n'}
+[1.379381] (xiaomi) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_use.dir/src/xiaomi_initial_set.cpp.o\x1b[0m\n'}
+[1.385322] (xiaomi) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_msg_pub.dir/src/xiaomi_msg_pub.cpp.o\x1b[0m\n'}
+[1.387011] (xiaomi) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_sub.dir/src/xiaomi_initial_set.cpp.o\x1b[0m\n'}
+[1.400723] (-) TimerEvent: {}
+[1.501206] (-) TimerEvent: {}
+[1.601978] (-) TimerEvent: {}
+[1.702915] (-) TimerEvent: {}
+[1.803544] (-) TimerEvent: {}
+[1.904081] (-) TimerEvent: {}
+[2.004714] (-) TimerEvent: {}
+[2.107544] (-) TimerEvent: {}
+[2.219014] (-) TimerEvent: {}
+[2.319622] (-) TimerEvent: {}
+[2.420316] (-) TimerEvent: {}
+[2.520965] (-) TimerEvent: {}
+[2.621691] (-) TimerEvent: {}
+[2.722445] (-) TimerEvent: {}
+[2.798644] (xiaomi) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_sub.dir/src/xiaomi_sub.cpp.o\x1b[0m\n'}
+[2.822566] (-) TimerEvent: {}
+[2.836163] (xiaomi) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/xiaomi_use.dir/src/xiaomi_use.cpp.o\x1b[0m\n'}
+[2.922738] (-) TimerEvent: {}
+[3.023333] (-) TimerEvent: {}
+[3.123696] (-) TimerEvent: {}
+[3.224649] (-) TimerEvent: {}
+[3.325024] (-) TimerEvent: {}
+[3.425385] (-) TimerEvent: {}
+[3.525741] (-) TimerEvent: {}
+[3.626098] (-) TimerEvent: {}
+[3.726452] (-) TimerEvent: {}
+[3.826824] (-) TimerEvent: {}
+[3.927181] (-) TimerEvent: {}
+[4.027540] (-) TimerEvent: {}
+[4.127978] (-) TimerEvent: {}
+[4.228417] (-) TimerEvent: {}
+[4.328826] (-) TimerEvent: {}
+[4.429354] (-) TimerEvent: {}
+[4.529834] (-) TimerEvent: {}
+[4.630355] (-) TimerEvent: {}
+[4.730790] (-) TimerEvent: {}
+[4.831788] (-) TimerEvent: {}
+[4.932312] (-) TimerEvent: {}
+[5.032751] (-) TimerEvent: {}
+[5.133188] (-) TimerEvent: {}
+[5.233574] (-) TimerEvent: {}
+[5.333946] (-) TimerEvent: {}
+[5.434333] (-) TimerEvent: {}
+[5.534717] (-) TimerEvent: {}
+[5.635101] (-) TimerEvent: {}
+[5.735536] (-) TimerEvent: {}
+[5.835957] (-) TimerEvent: {}
+[5.936343] (-) TimerEvent: {}
+[6.036706] (-) TimerEvent: {}
+[6.137067] (-) TimerEvent: {}
+[6.237473] (-) TimerEvent: {}
+[6.337893] (-) TimerEvent: {}
+[6.438280] (-) TimerEvent: {}
+[6.538699] (-) TimerEvent: {}
+[6.639109] (-) TimerEvent: {}
+[6.710769] (xiaomi) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX executable xiaomi_able\x1b[0m\n'}
+[6.739246] (-) TimerEvent: {}
+[6.839667] (-) TimerEvent: {}
+[6.940099] (-) TimerEvent: {}
+[6.941159] (xiaomi) StdoutLine: {'line': b'[ 73%] Built target xiaomi_able\n'}
+[7.040221] (-) TimerEvent: {}
+[7.140552] (-) TimerEvent: {}
+[7.240911] (-) TimerEvent: {}
+[7.341270] (-) TimerEvent: {}
+[7.441655] (-) TimerEvent: {}
+[7.542020] (-) TimerEvent: {}
+[7.568730] (xiaomi) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable xiaomi_msg_pub\x1b[0m\n'}
+[7.642145] (-) TimerEvent: {}
+[7.742516] (-) TimerEvent: {}
+[7.820895] (xiaomi) StdoutLine: {'line': b'[ 80%] Built target xiaomi_msg_pub\n'}
+[7.842634] (-) TimerEvent: {}
+[7.942974] (-) TimerEvent: {}
+[8.043302] (-) TimerEvent: {}
+[8.143664] (-) TimerEvent: {}
+[8.155743] (xiaomi) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable xiaomi_use\x1b[0m\n'}
+[8.243815] (-) TimerEvent: {}
+[8.344279] (-) TimerEvent: {}
+[8.363391] (xiaomi) StdoutLine: {'line': b'[ 86%] Built target xiaomi_use\n'}
+[8.444402] (-) TimerEvent: {}
+[8.544757] (-) TimerEvent: {}
+[8.645113] (-) TimerEvent: {}
+[8.745463] (-) TimerEvent: {}
+[8.845846] (-) TimerEvent: {}
+[8.946251] (-) TimerEvent: {}
+[9.046684] (-) TimerEvent: {}
+[9.147077] (-) TimerEvent: {}
+[9.247578] (-) TimerEvent: {}
+[9.347993] (-) TimerEvent: {}
+[9.448345] (-) TimerEvent: {}
+[9.548703] (-) TimerEvent: {}
+[9.649077] (-) TimerEvent: {}
+[9.749454] (-) TimerEvent: {}
+[9.849797] (-) TimerEvent: {}
+[9.950156] (-) TimerEvent: {}
+[10.050492] (-) TimerEvent: {}
+[10.150834] (-) TimerEvent: {}
+[10.251181] (-) TimerEvent: {}
+[10.351512] (-) TimerEvent: {}
+[10.451850] (-) TimerEvent: {}
+[10.552154] (-) TimerEvent: {}
+[10.652491] (-) TimerEvent: {}
+[10.752824] (-) TimerEvent: {}
+[10.853169] (-) TimerEvent: {}
+[10.953519] (-) TimerEvent: {}
+[11.053872] (-) TimerEvent: {}
+[11.154221] (-) TimerEvent: {}
+[11.222653] (xiaomi) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable xiaomi_msg_sub\x1b[0m\n'}
+[11.254389] (-) TimerEvent: {}
+[11.354723] (-) TimerEvent: {}
+[11.455119] (-) TimerEvent: {}
+[11.555492] (-) TimerEvent: {}
+[11.628677] (xiaomi) StdoutLine: {'line': b'[ 93%] Built target xiaomi_msg_sub\n'}
+[11.655628] (-) TimerEvent: {}
+[11.755946] (-) TimerEvent: {}
+[11.856267] (-) TimerEvent: {}
+[11.956602] (-) TimerEvent: {}
+[12.056940] (-) TimerEvent: {}
+[12.157300] (-) TimerEvent: {}
+[12.257643] (-) TimerEvent: {}
+[12.357998] (-) TimerEvent: {}
+[12.458350] (-) TimerEvent: {}
+[12.558222] (xiaomi) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable xiaomi_sub\x1b[0m\n'}
+[12.558374] (-) TimerEvent: {}
+[12.658592] (-) TimerEvent: {}
+[12.758902] (-) TimerEvent: {}
+[12.859213] (-) TimerEvent: {}
+[12.917736] (xiaomi) StdoutLine: {'line': b'[100%] Built target xiaomi_sub\n'}
+[12.926996] (xiaomi) CommandEnded: {'returncode': 0}
+[12.959300] (-) TimerEvent: {}
+[12.964121] (xiaomi) JobProgress: {'identifier': 'xiaomi', 'progress': 'install'}
+[12.976905] (xiaomi) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xmj/xiaomi_ws/build/xiaomi'], 'cwd': '/home/xmj/xiaomi_ws/build/xiaomi', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xmj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/xmj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xmj'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nodejs/node-v18.12.1-linux-x64/bin/:/opt/nodejs/node-v18.12.1-linux-x64/bin/'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1785,unix/WP:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3a1b2e_f5a1_4e7f_8ca2_8d0a47f8d425'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xmj/xiaomi_ws/build/xiaomi'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble')]), 'shell': False}
+[12.983614] (xiaomi) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.983856] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_able\n'}
+[12.984107] (xiaomi) StdoutLine: {'line': b'-- Set runtime path of "/home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_able" to "/usr/local/lib:/opt/ros/humble/lib"\n'}
+[12.984255] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/package_run_dependencies/xiaomi\n'}
+[12.984394] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/parent_prefix_path/xiaomi\n'}
+[12.984547] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/ament_prefix_path.sh\n'}
+[12.984687] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/ament_prefix_path.dsv\n'}
+[12.984826] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/path.sh\n'}
+[12.984986] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/path.dsv\n'}
+[12.985120] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.bash\n'}
+[12.985252] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.sh\n'}
+[12.985441] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.zsh\n'}
+[12.985595] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.dsv\n'}
+[12.985740] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.dsv\n'}
+[12.985890] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/packages/xiaomi\n'}
+[12.986048] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/cmake/xiaomiConfig.cmake\n'}
+[12.986269] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/cmake/xiaomiConfig-version.cmake\n'}
+[12.986419] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.xml\n'}
+[12.986605] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/launch\n'}
+[12.986749] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/launch/xiaomi_sue_launch.py\n'}
+[12.986988] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_use\n'}
+[12.988241] (xiaomi) StdoutLine: {'line': b'-- Set runtime path of "/home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_use" to ""\n'}
+[12.988431] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_sub\n'}
+[12.991615] (xiaomi) StdoutLine: {'line': b'-- Set runtime path of "/home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_sub" to ""\n'}
+[12.991790] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_msg_pub\n'}
+[12.992612] (xiaomi) StdoutLine: {'line': b'-- Set runtime path of "/home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_msg_pub" to ""\n'}
+[12.992697] (xiaomi) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_msg_sub\n'}
+[12.995486] (xiaomi) StdoutLine: {'line': b'-- Set runtime path of "/home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_msg_sub" to ""\n'}
+[12.996851] (xiaomi) CommandEnded: {'returncode': 0}
+[13.045118] (xiaomi) JobEnded: {'identifier': 'xiaomi', 'rc': 0}
+[13.045943] (-) EventReactorShutdown: {}

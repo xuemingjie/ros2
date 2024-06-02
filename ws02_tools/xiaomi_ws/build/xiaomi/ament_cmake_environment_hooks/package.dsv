@@ -1,0 +1,4 @@
+source;share/xiaomi/local_setup.bash
+source;share/xiaomi/local_setup.dsv
+source;share/xiaomi/local_setup.sh
+source;share/xiaomi/local_setup.zsh

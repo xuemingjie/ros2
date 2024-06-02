@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (-) JobUnselected: {'identifier': 'fdilink_ahrs'}
+[0.000319] (-) JobUnselected: {'identifier': 'xiaomi'}
+[0.000334] (-) JobUnselected: {'identifier': 'xiaomi_interfaces'}
+[0.000574] (-) EventReactorShutdown: {}

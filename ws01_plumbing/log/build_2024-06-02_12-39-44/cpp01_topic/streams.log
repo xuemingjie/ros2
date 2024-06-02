@@ -1,0 +1,41 @@
+[0.012s] Invoking command in '/home/xmj/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/xmj/ws01_plumbing/install/base_interfaces_demo:/home/xmj/ws01_plumbing/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/xmj/ws01_plumbing/build/cpp01_topic -- -j8 -l8
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target xue_pub_str[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target xue_sub_str[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.079s] [ 75%] Built target xue_sub_str
+[0.080s] [ 75%] Built target demo04_listener_stu
+[0.080s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[0.080s] [ 75%] Built target demo02_listener_str
+[0.080s] [ 75%] Built target xue_pub_str
+[0.083s] [ 91%] Built target demo03_talker_stu
+[4.482s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[4.666s] [100%] Built target demo01_talker_str
+[4.677s] Invoked command in '/home/xmj/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/xmj/ws01_plumbing/install/base_interfaces_demo:/home/xmj/ws01_plumbing/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/xmj/ws01_plumbing/build/cpp01_topic -- -j8 -l8
+[4.726s] Invoking command in '/home/xmj/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/xmj/ws01_plumbing/install/base_interfaces_demo:/home/xmj/ws01_plumbing/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/xmj/ws01_plumbing/build/cpp01_topic
+[4.735s] -- Install configuration: ""
+[4.735s] -- Installing: /home/xmj/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[4.737s] -- Set runtime path of "/home/xmj/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[4.737s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[4.737s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[4.737s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[4.737s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/xue_pub_str
+[4.737s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/xue_sub_str
+[4.738s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[4.738s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[4.738s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[4.738s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[4.739s] -- Installing: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[4.739s] -- Up-to-date: /home/xmj/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[4.741s] Invoked command in '/home/xmj/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/xmj/ws01_plumbing/install/base_interfaces_demo:/home/xmj/ws01_plumbing/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/xmj/ws01_plumbing/build/cpp01_topic

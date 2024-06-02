@@ -1,0 +1,6 @@
+Invoking command in '/home/xmj/xiaomi_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/xmj/xiaomi_ws/install/fdilink_ahrs
+Invoked command in '/home/xmj/xiaomi_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/xmj/xiaomi_ws/install/fdilink_ahrs
+Invoking command in '/home/xmj/xiaomi_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xmj/xiaomi_ws/build/fdilink_ahrs -- -j8 -l8
+Invoked command in '/home/xmj/xiaomi_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xmj/xiaomi_ws/build/fdilink_ahrs -- -j8 -l8
+Invoking command in '/home/xmj/xiaomi_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xmj/xiaomi_ws/build/fdilink_ahrs
+Invoked command in '/home/xmj/xiaomi_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xmj/xiaomi_ws/build/fdilink_ahrs

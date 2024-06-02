@@ -1,0 +1,151 @@
+[0.087s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'xiaomi']
+[0.087s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['xiaomi'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x799a485b0910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x799a48745540>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x799a48745540>>)
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.249s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xmj/xiaomi_ws'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaomi' with type 'ros.ament_cmake' and name 'xiaomi'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/xiaomi_interfaces) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xiaomi_interfaces' with type 'ros.ament_cmake' and name 'xiaomi_interfaces'
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'xiaomi_interfaces' in 'src/xiaomi_interfaces'
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.293s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'cmake_clean_first' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'xiaomi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'xiaomi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xmj/xiaomi_ws/build/xiaomi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xmj/xiaomi_ws/install/xiaomi', 'merge_install': False, 'path': '/home/xmj/xiaomi_ws/src/xiaomi', 'symlink_install': False, 'test_result_base': None}
+[0.335s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xmj/xiaomi_ws/src/xiaomi' with build type 'ament_cmake'
+[0.336s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xmj/xiaomi_ws/src/xiaomi'
+[0.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xmj/xiaomi_ws/build/xiaomi': AMENT_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xmj/xiaomi_ws/build/xiaomi -- -j8 -l8
+[4.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xmj/xiaomi_ws/build/xiaomi' returned '0': AMENT_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xmj/xiaomi_ws/build/xiaomi -- -j8 -l8
+[4.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xmj/xiaomi_ws/build/xiaomi': AMENT_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xmj/xiaomi_ws/build/xiaomi
+[4.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaomi)
+[4.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xmj/xiaomi_ws/build/xiaomi' returned '0': AMENT_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xmj/xiaomi_ws/build/xiaomi
+[4.915s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi' for CMake module files
+[4.916s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi' for CMake config files
+[4.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaomi', 'cmake_prefix_path')
+[4.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/hook/cmake_prefix_path.ps1'
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/hook/cmake_prefix_path.dsv'
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/hook/cmake_prefix_path.sh'
+[4.918s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/lib'
+[4.918s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/bin'
+[4.918s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/lib/pkgconfig/xiaomi.pc'
+[4.918s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/lib/python3.10/site-packages'
+[4.918s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/bin'
+[4.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.ps1'
+[4.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.dsv'
+[4.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.sh'
+[4.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.bash'
+[4.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.zsh'
+[4.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xmj/xiaomi_ws/install/xiaomi/share/colcon-core/packages/xiaomi)
+[4.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xiaomi)
+[4.953s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi' for CMake module files
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi' for CMake config files
+[4.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('xiaomi', 'cmake_prefix_path')
+[4.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/hook/cmake_prefix_path.ps1'
+[4.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/hook/cmake_prefix_path.dsv'
+[4.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/hook/cmake_prefix_path.sh'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/lib'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/bin'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/lib/pkgconfig/xiaomi.pc'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/lib/python3.10/site-packages'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/xmj/xiaomi_ws/install/xiaomi/bin'
+[4.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.ps1'
+[4.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.dsv'
+[4.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.sh'
+[4.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.bash'
+[4.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.zsh'
+[4.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xmj/xiaomi_ws/install/xiaomi/share/colcon-core/packages/xiaomi)
+[4.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.959s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.968s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.968s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.968s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.984s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xmj/xiaomi_ws/install/local_setup.ps1'
+[4.986s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xmj/xiaomi_ws/install/_local_setup_util_ps1.py'
+[4.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xmj/xiaomi_ws/install/setup.ps1'
+[4.990s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xmj/xiaomi_ws/install/local_setup.sh'
+[4.991s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xmj/xiaomi_ws/install/_local_setup_util_sh.py'
+[4.991s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xmj/xiaomi_ws/install/setup.sh'
+[4.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xmj/xiaomi_ws/install/local_setup.bash'
+[4.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xmj/xiaomi_ws/install/setup.bash'
+[4.997s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xmj/xiaomi_ws/install/local_setup.zsh'
+[4.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xmj/xiaomi_ws/install/setup.zsh'

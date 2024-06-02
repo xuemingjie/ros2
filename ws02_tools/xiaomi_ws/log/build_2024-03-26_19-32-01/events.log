@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000426] (-) JobUnselected: {'identifier': 'xiaomi'}
+[0.000477] (-) JobUnselected: {'identifier': 'xiaomi_interfaces'}
+[0.000614] (fdilink_ahrs) JobQueued: {'identifier': 'fdilink_ahrs', 'dependencies': OrderedDict()}
+[0.000633] (fdilink_ahrs) JobStarted: {'identifier': 'fdilink_ahrs'}
+[0.006971] (fdilink_ahrs) JobProgress: {'identifier': 'fdilink_ahrs', 'progress': 'cmake'}
+[0.007162] (fdilink_ahrs) Command: {'cmd': ['/usr/bin/cmake', '/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2', '-DCMAKE_INSTALL_PREFIX=/home/xmj/xiaomi_ws/install/fdilink_ahrs'], 'cwd': '/home/xmj/xiaomi_ws/build/fdilink_ahrs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xmj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/xmj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xmj'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nodejs/node-v18.12.1-linux-x64/bin/:/opt/nodejs/node-v18.12.1-linux-x64/bin/'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1785,unix/WP:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3a1b2e_f5a1_4e7f_8ca2_8d0a47f8d425'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xmj/xiaomi_ws/build/fdilink_ahrs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062043] (fdilink_ahrs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099617] (-) TimerEvent: {}
+[0.109931] (fdilink_ahrs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116541] (fdilink_ahrs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.181614] (fdilink_ahrs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.189109] (fdilink_ahrs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.189510] (fdilink_ahrs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.190064] (fdilink_ahrs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.192731] (fdilink_ahrs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199784] (-) TimerEvent: {}
+[0.266618] (fdilink_ahrs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.272726] (fdilink_ahrs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.272979] (fdilink_ahrs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.273592] (fdilink_ahrs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.282458] (fdilink_ahrs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299918] (-) TimerEvent: {}
+[0.400283] (-) TimerEvent: {}
+[0.433675] (fdilink_ahrs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500466] (-) TimerEvent: {}
+[0.527611] (fdilink_ahrs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.565695] (fdilink_ahrs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.569910] (fdilink_ahrs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.577341] (fdilink_ahrs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.588116] (fdilink_ahrs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600642] (-) TimerEvent: {}
+[0.607022] (fdilink_ahrs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.671492] (fdilink_ahrs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.673779] (fdilink_ahrs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700770] (-) TimerEvent: {}
+[0.760146] (fdilink_ahrs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.781879] (fdilink_ahrs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800928] (-) TimerEvent: {}
+[0.823791] (fdilink_ahrs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.832623] (fdilink_ahrs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.897343] (fdilink_ahrs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.897709] (fdilink_ahrs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901046] (-) TimerEvent: {}
+[0.971805] (fdilink_ahrs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.972710] (fdilink_ahrs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001206] (-) TimerEvent: {}
+[1.101558] (-) TimerEvent: {}
+[1.113620] (fdilink_ahrs) StdoutLine: {'line': b'-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.115348] (fdilink_ahrs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.201695] (-) TimerEvent: {}
+[1.231797] (fdilink_ahrs) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.246728] (fdilink_ahrs) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.301826] (-) TimerEvent: {}
+[1.402072] (-) TimerEvent: {}
+[1.502334] (-) TimerEvent: {}
+[1.596695] (fdilink_ahrs) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)\n'}
+[1.599807] (fdilink_ahrs) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.602461] (-) TimerEvent: {}
+[1.694386] (fdilink_ahrs) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.702590] (-) TimerEvent: {}
+[1.703319] (fdilink_ahrs) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.705348] (fdilink_ahrs) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.705559] (fdilink_ahrs) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.715874] (fdilink_ahrs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.802859] (-) TimerEvent: {}
+[1.812312] (fdilink_ahrs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.813338] (fdilink_ahrs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.813684] (fdilink_ahrs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/include;/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src\n'}
+[1.813750] (fdilink_ahrs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.814701] (fdilink_ahrs) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.814768] (fdilink_ahrs) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.815231] (fdilink_ahrs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.815766] (fdilink_ahrs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.816278] (fdilink_ahrs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.817277] (fdilink_ahrs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.817419] (fdilink_ahrs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.818007] (fdilink_ahrs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.819281] (fdilink_ahrs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.838569] (fdilink_ahrs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.842091] (fdilink_ahrs) StdoutLine: {'line': b'-- Build files have been written to: /home/xmj/xiaomi_ws/build/fdilink_ahrs\n'}
+[1.852119] (fdilink_ahrs) CommandEnded: {'returncode': 0}
+[1.852658] (fdilink_ahrs) JobProgress: {'identifier': 'fdilink_ahrs', 'progress': 'build'}
+[1.853421] (fdilink_ahrs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xmj/xiaomi_ws/build/fdilink_ahrs', '--', '-j8', '-l8'], 'cwd': '/home/xmj/xiaomi_ws/build/fdilink_ahrs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xmj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/xmj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xmj'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nodejs/node-v18.12.1-linux-x64/bin/:/opt/nodejs/node-v18.12.1-linux-x64/bin/'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1785,unix/WP:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3a1b2e_f5a1_4e7f_8ca2_8d0a47f8d425'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xmj/xiaomi_ws/build/fdilink_ahrs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.902963] (-) TimerEvent: {}
+[1.907221] (fdilink_ahrs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o\x1b[0m\n'}
+[1.907805] (fdilink_ahrs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/crc_table.cpp.o\x1b[0m\n'}
+[1.908084] (fdilink_ahrs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/imu_tf_node.dir/src/imu_tf.cpp.o\x1b[0m\n'}
+[2.003083] (-) TimerEvent: {}
+[2.103405] (-) TimerEvent: {}
+[2.143104] (fdilink_ahrs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/imu_tf.cpp:6\x1b[m\x1b[K:\n'}
+[2.143355] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.143461] (fdilink_ahrs) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[2.143564] (fdilink_ahrs) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.203521] (-) TimerEvent: {}
+[2.303911] (-) TimerEvent: {}
+[2.404365] (-) TimerEvent: {}
+[2.504783] (-) TimerEvent: {}
+[2.605210] (-) TimerEvent: {}
+[2.705737] (-) TimerEvent: {}
+[2.806250] (-) TimerEvent: {}
+[2.907779] (-) TimerEvent: {}
+[3.008122] (-) TimerEvent: {}
+[3.108510] (-) TimerEvent: {}
+[3.208841] (-) TimerEvent: {}
+[3.309209] (-) TimerEvent: {}
+[3.409604] (-) TimerEvent: {}
+[3.509888] (-) TimerEvent: {}
+[3.610195] (-) TimerEvent: {}
+[3.710491] (-) TimerEvent: {}
+[3.810794] (-) TimerEvent: {}
+[3.911142] (-) TimerEvent: {}
+[4.011479] (-) TimerEvent: {}
+[4.111767] (-) TimerEvent: {}
+[4.212070] (-) TimerEvent: {}
+[4.312397] (-) TimerEvent: {}
+[4.412717] (-) TimerEvent: {}
+[4.513003] (-) TimerEvent: {}
+[4.613337] (-) TimerEvent: {}
+[4.713619] (-) TimerEvent: {}
+[4.813894] (-) TimerEvent: {}
+[4.914286] (-) TimerEvent: {}
+[5.014619] (-) TimerEvent: {}
+[5.114928] (-) TimerEvent: {}
+[5.215533] (-) TimerEvent: {}
+[5.263253] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FDILink::ahrsBringup::processLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.263408] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:171:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kground_sn_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.263476] (fdilink_ahrs) StderrLine: {'line': b'  171 |       size_t \x1b[01;35m\x1b[Kground_sn_s\x1b[m\x1b[K = serial_.read(ground_sn, 1);\n'}
+[5.263531] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.263632] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:194:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kground_ignore_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.263692] (fdilink_ahrs) StderrLine: {'line': b'  194 |       size_t \x1b[01;35m\x1b[Kground_ignore_s\x1b[m\x1b[K = serial_.read(ground_ignore, (check_len[0]+4));\n'}
+[5.263744] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.268547] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:308:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.268710] (fdilink_ahrs) StderrLine: {'line': b'  308 |       size_t \x1b[01;35m\x1b[Kdata_s\x1b[m\x1b[K = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1)); //48+1\n'}
+[5.268768] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.270791] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:344:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.270957] (fdilink_ahrs) StderrLine: {'line': b'  344 |       size_t \x1b[01;35m\x1b[Kdata_s\x1b[m\x1b[K = serial_.read(ahrs_frame_.read_buf.read_msg, (AHRS_LEN + 1)); //48+1\n'}
+[5.271022] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.272927] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:378:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.273042] (fdilink_ahrs) StderrLine: {'line': b'  378 |       size_t \x1b[01;35m\x1b[Kdata_s\x1b[m\x1b[K = serial_.read(insgps_frame_.read_buf.read_msg, (INSGPS_LEN + 1)); //48+1\n'}
+[5.273096] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.274976] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:412:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.275130] (fdilink_ahrs) StderrLine: {'line': b'  412 |       size_t \x1b[01;35m\x1b[Kdata_s\x1b[m\x1b[K = serial_.read(Geodetic_Position_frame_.read_buf.read_msg, (GEODETIC_POS_LEN + 1)); //24+1\n'}
+[5.275218] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.315633] (-) TimerEvent: {}
+[5.319767] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:462:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kq_xiao_rr\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.319939] (fdilink_ahrs) StderrLine: {'line': b'  462 |       Eigen::Quaterniond \x1b[01;35m\x1b[Kq_xiao_rr\x1b[m\x1b[K =\n'}
+[5.320008] (fdilink_ahrs) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.321896] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:136:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktype_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.322198] (fdilink_ahrs) StderrLine: {'line': b'  136 |     size_t \x1b[01;35m\x1b[Ktype_s\x1b[m\x1b[K = serial_.read(head_type, 1);\n'}
+[5.322379] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.322496] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:147:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klen_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.322611] (fdilink_ahrs) StderrLine: {'line': b'  147 |     size_t \x1b[01;35m\x1b[Klen_s\x1b[m\x1b[K = serial_.read(check_len, 1);\n'}
+[5.322716] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.322771] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:199:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksn_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.322824] (fdilink_ahrs) StderrLine: {'line': b'  199 |     size_t \x1b[01;35m\x1b[Ksn_s\x1b[m\x1b[K = serial_.read(check_sn, 1);\n'}
+[5.322875] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.322925] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:201:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcrc8_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.322985] (fdilink_ahrs) StderrLine: {'line': b'  201 |     size_t \x1b[01;35m\x1b[Kcrc8_s\x1b[m\x1b[K = serial_.read(head_crc8, 1);\n'}
+[5.323043] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.323106] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:204:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcrc16_H_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.323209] (fdilink_ahrs) StderrLine: {'line': b'  204 |     size_t \x1b[01;35m\x1b[Kcrc16_H_s\x1b[m\x1b[K = serial_.read(head_crc16_H, 1);\n'}
+[5.323304] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.323405] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xmj/xiaomi_ws/src/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:205:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcrc16_L_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.323496] (fdilink_ahrs) StderrLine: {'line': b'  205 |     size_t \x1b[01;35m\x1b[Kcrc16_L_s\x1b[m\x1b[K = serial_.read(head_crc16_L, 1);\n'}
+[5.323552] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.415780] (-) TimerEvent: {}
+[5.516142] (-) TimerEvent: {}
+[5.616419] (-) TimerEvent: {}
+[5.716740] (-) TimerEvent: {}
+[5.817086] (-) TimerEvent: {}
+[5.917395] (-) TimerEvent: {}
+[6.017710] (-) TimerEvent: {}
+[6.118077] (-) TimerEvent: {}
+[6.218503] (-) TimerEvent: {}
+[6.318815] (-) TimerEvent: {}
+[6.419170] (-) TimerEvent: {}
+[6.519584] (-) TimerEvent: {}
+[6.619894] (-) TimerEvent: {}
+[6.720277] (-) TimerEvent: {}
+[6.820576] (-) TimerEvent: {}
+[6.920861] (-) TimerEvent: {}
+[7.021147] (-) TimerEvent: {}
+[7.121457] (-) TimerEvent: {}
+[7.221780] (-) TimerEvent: {}
+[7.322097] (-) TimerEvent: {}
+[7.422401] (-) TimerEvent: {}
+[7.522705] (-) TimerEvent: {}
+[7.623000] (-) TimerEvent: {}
+[7.723316] (-) TimerEvent: {}
+[7.823623] (-) TimerEvent: {}
+[7.923998] (-) TimerEvent: {}
+[8.024264] (-) TimerEvent: {}
+[8.124578] (-) TimerEvent: {}
+[8.224942] (-) TimerEvent: {}
+[8.325203] (-) TimerEvent: {}
+[8.425559] (-) TimerEvent: {}
+[8.525911] (-) TimerEvent: {}
+[8.626159] (-) TimerEvent: {}
+[8.726426] (-) TimerEvent: {}
+[8.826708] (-) TimerEvent: {}
+[8.926989] (-) TimerEvent: {}
+[9.027256] (-) TimerEvent: {}
+[9.127532] (-) TimerEvent: {}
+[9.227819] (-) TimerEvent: {}
+[9.328077] (-) TimerEvent: {}
+[9.428464] (-) TimerEvent: {}
+[9.528801] (-) TimerEvent: {}
+[9.629079] (-) TimerEvent: {}
+[9.729410] (-) TimerEvent: {}
+[9.829887] (-) TimerEvent: {}
+[9.930251] (-) TimerEvent: {}
+[10.007207] (fdilink_ahrs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable ahrs_driver_node\x1b[0m\n'}
+[10.030427] (-) TimerEvent: {}
+[10.130822] (-) TimerEvent: {}
+[10.231314] (-) TimerEvent: {}
+[10.331703] (-) TimerEvent: {}
+[10.396216] (fdilink_ahrs) StdoutLine: {'line': b'[ 80%] Built target ahrs_driver_node\n'}
+[10.431839] (-) TimerEvent: {}
+[10.532074] (-) TimerEvent: {}
+[10.632399] (-) TimerEvent: {}
+[10.732676] (-) TimerEvent: {}
+[10.832957] (-) TimerEvent: {}
+[10.933274] (-) TimerEvent: {}
+[11.033538] (-) TimerEvent: {}
+[11.064603] (fdilink_ahrs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_tf_node\x1b[0m\n'}
+[11.133696] (-) TimerEvent: {}
+[11.234081] (-) TimerEvent: {}
+[11.334356] (-) TimerEvent: {}
+[11.434674] (-) TimerEvent: {}
+[11.535034] (-) TimerEvent: {}
+[11.585420] (fdilink_ahrs) StdoutLine: {'line': b'[100%] Built target imu_tf_node\n'}
+[11.595758] (fdilink_ahrs) CommandEnded: {'returncode': 0}
+[11.622761] (fdilink_ahrs) JobProgress: {'identifier': 'fdilink_ahrs', 'progress': 'install'}
+[11.631046] (fdilink_ahrs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xmj/xiaomi_ws/build/fdilink_ahrs'], 'cwd': '/home/xmj/xiaomi_ws/build/fdilink_ahrs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xmj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/xmj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xmj'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nodejs/node-v18.12.1-linux-x64/bin/:/opt/nodejs/node-v18.12.1-linux-x64/bin/'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1785,unix/WP:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3a1b2e_f5a1_4e7f_8ca2_8d0a47f8d425'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xmj/xiaomi_ws/build/fdilink_ahrs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b752ceaca041db2a748688d6602ac7b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.635123] (-) TimerEvent: {}
+[11.638207] (fdilink_ahrs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.638380] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node\n'}
+[11.640478] (fdilink_ahrs) StdoutLine: {'line': b'-- Set runtime path of "/home/xmj/xiaomi_ws/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node" to ""\n'}
+[11.640636] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/lib/fdilink_ahrs/imu_tf_node\n'}
+[11.643574] (fdilink_ahrs) StdoutLine: {'line': b'-- Set runtime path of "/home/xmj/xiaomi_ws/install/fdilink_ahrs/lib/fdilink_ahrs/imu_tf_node" to ""\n'}
+[11.643742] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch\n'}
+[11.643795] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch/ahrs_driver.launch.py\n'}
+[11.643843] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch/imu_tf.launch.py\n'}
+[11.643937] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdilink_ahrs\n'}
+[11.644115] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdilink_ahrs\n'}
+[11.644285] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.sh\n'}
+[11.644421] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.dsv\n'}
+[11.644551] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.sh\n'}
+[11.644726] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.dsv\n'}
+[11.644888] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.bash\n'}
+[11.645026] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.sh\n'}
+[11.645155] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.zsh\n'}
+[11.645297] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.dsv\n'}
+[11.645423] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv\n'}
+[11.645604] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/ament_index/resource_index/packages/fdilink_ahrs\n'}
+[11.645821] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake\n'}
+[11.645952] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake\n'}
+[11.646054] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/xmj/xiaomi_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.xml\n'}
+[11.647983] (fdilink_ahrs) CommandEnded: {'returncode': 0}
+[11.695285] (fdilink_ahrs) JobEnded: {'identifier': 'fdilink_ahrs', 'rc': 0}
+[11.696078] (-) EventReactorShutdown: {}

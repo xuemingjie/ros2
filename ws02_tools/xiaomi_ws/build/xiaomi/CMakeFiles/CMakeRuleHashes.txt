@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+5c0155c48d812540a13952ce6facd3a4 CMakeFiles/xiaomi_uninstall

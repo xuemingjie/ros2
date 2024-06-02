@@ -1,0 +1,6 @@
+{
+  "package_name": "xiaomi_interfaces",
+  "non_idl_tuples": [
+    "/home/xmj/xiaomi_ws/src/xiaomi_interfaces:msg/Xiaomi.msg"
+  ]
+}

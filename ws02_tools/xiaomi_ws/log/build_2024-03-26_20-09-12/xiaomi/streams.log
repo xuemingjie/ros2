@@ -1,0 +1,36 @@
+[0.012s] Invoking command in '/home/xmj/xiaomi_ws/build/xiaomi': CMAKE_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/home/xmj/xiaomi_ws/install/xiaomi:/home/xmj/xiaomi_ws/install/fdilink_ahrs:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/xmj/xiaomi_ws/build/xiaomi -- -j8 -l8
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target xiaomi_use[0m
+[0.083s] [ 20%] Built target xiaomi_msg_pub
+[0.086s] [ 40%] Built target xiaomi_msg_sub
+[0.087s] [ 60%] Built target xiaomi_able
+[0.092s] [ 80%] Built target xiaomi_sub
+[0.101s] [ 86%] [32mBuilding CXX object CMakeFiles/xiaomi_use.dir/src/xiaomi_use.cpp.o[0m
+[6.822s] [ 93%] [32m[1mLinking CXX executable xiaomi_use[0m
+[7.086s] [100%] Built target xiaomi_use
+[7.097s] Invoked command in '/home/xmj/xiaomi_ws/build/xiaomi' returned '0': CMAKE_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/home/xmj/xiaomi_ws/install/xiaomi:/home/xmj/xiaomi_ws/install/fdilink_ahrs:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/xmj/xiaomi_ws/build/xiaomi -- -j8 -l8
+[7.150s] Invoking command in '/home/xmj/xiaomi_ws/build/xiaomi': CMAKE_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/home/xmj/xiaomi_ws/install/xiaomi:/home/xmj/xiaomi_ws/install/fdilink_ahrs:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/xmj/xiaomi_ws/build/xiaomi
+[7.159s] -- Install configuration: ""
+[7.159s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_able
+[7.159s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/package_run_dependencies/xiaomi
+[7.159s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/parent_prefix_path/xiaomi
+[7.160s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/ament_prefix_path.sh
+[7.160s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/ament_prefix_path.dsv
+[7.160s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/path.sh
+[7.160s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/environment/path.dsv
+[7.160s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.bash
+[7.160s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.sh
+[7.160s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.zsh
+[7.160s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/local_setup.dsv
+[7.161s] -- Installing: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.dsv
+[7.161s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/ament_index/resource_index/packages/xiaomi
+[7.161s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/cmake/xiaomiConfig.cmake
+[7.161s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/cmake/xiaomiConfig-version.cmake
+[7.161s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/package.xml
+[7.161s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/launch
+[7.161s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/share/xiaomi/launch/xiaomi_sue_launch.py
+[7.161s] -- Installing: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_use
+[7.163s] -- Set runtime path of "/home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_use" to ""
+[7.163s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_sub
+[7.164s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_msg_pub
+[7.164s] -- Up-to-date: /home/xmj/xiaomi_ws/install/xiaomi/lib/xiaomi/xiaomi_msg_sub
+[7.166s] Invoked command in '/home/xmj/xiaomi_ws/build/xiaomi' returned '0': CMAKE_PREFIX_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces:/home/xmj/xiaomi_ws/install/xiaomi:/home/xmj/xiaomi_ws/install/fdilink_ahrs:/opt/ros/humble LD_LIBRARY_PATH=/home/xmj/xiaomi_ws/install/xiaomi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/xmj/xiaomi_ws/build/xiaomi

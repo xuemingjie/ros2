@@ -1,0 +1,8 @@
+source;share/xiaomi/hook/cmake_prefix_path.ps1
+source;share/xiaomi/hook/cmake_prefix_path.dsv
+source;share/xiaomi/hook/cmake_prefix_path.sh
+source;share/xiaomi/local_setup.bash
+source;share/xiaomi/local_setup.dsv
+source;share/xiaomi/local_setup.ps1
+source;share/xiaomi/local_setup.sh
+source;share/xiaomi/local_setup.zsh
